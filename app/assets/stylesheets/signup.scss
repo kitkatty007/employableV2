@@ -1,0 +1,57 @@
+// Place all the styles related to the signup controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "colors";
+@import "buttons";
+
+html {
+  height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100%;
+}
+
+#signup {
+    display: flex;
+    height: 100%;
+
+    div.skilled_professional {
+        background-color: $color-teal-50;
+        width: 50%;
+        align-self: flex-start;
+        align-items: center;
+        height: 100%;
+        display: table;
+
+        div.content {
+          padding: 20px;
+          display: table-cell;
+          vertical-align: middle;
+        }
+
+    }
+
+    div.companies {
+        background-color: $color-teal-50;
+        width: 50%;
+        align-self: flex-start;
+        align-items: center;
+        height: 100%;
+        display: table;
+        
+        div.content {
+          padding: 20px;
+          display: table-cell;
+          vertical-align: middle;
+        }
+    }
+
+    div.skilled_professional:hover,
+    div.companies:hover {
+      background-color: $color-teal-100;
+    }
+}
